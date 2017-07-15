@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: #3399CC;
+	border: 7px solid #2B81AC;
+	box-sizing: border-box;
+	font: 1em Arial,sans-serif;
+	color: #F0F2F8;
+}
+.wrapper {
+	width: 600px;
+	margin: auto;
+}
+
+.header {
+	margin: 20px 0;
+}
+
+.conteiner {
+	font-size: 0;
+	list-style: none;
+	height: 400px;
+	border: 1.5px solid #fff;
+}
+
+	.conteiner__item {
+		display: inline-block;
+		height: 25%;
+		font-size: 18px;
+		box-sizing: border-box;
+		border: 1.5px solid #fff;
+		color: #CCC;
+		transition: opacity 0.1s ease-in;
+	}
+
+	.conteiner__item-small {
+		width: 25%;
+	}
+
+	.conteiner__item-midlle {
+		width: 50%;
+	}
+	
+	.conteiner__item-large {
+		width: 100%;
+	}
+
+	.conteiner:hover .conteiner__item:not(:hover) {
+  	opacity:0.5;
+	} 
+
+	.conteiner__color-lisbon {
+		background-color: #3399CC;	
+	}
+	.conteiner__color-paris {
+		background-color: #3DCFD4;
+	}
+	.conteiner__color-belgrade {
+		background-color: #A378A4;
+	}
+	.conteiner__color-moscow {
+		background-color: #C24747;
+	}
+	.conteiner__color-tel-aviv {
+		background-color: #E2674A;
+	}
+	.conteiner__color-cair {
+		background-color: #FFCC66;
+	}
+	.conteiner__color-new-york {
+		background-color: #99CC99;
+	}
+	.conteiner__color-new-dolhi {
+		background-color: #669999;
+	}
+	.conteiner__color-san-francisco {
+		background-color: #CC6699;
+	}
+	.conteiner__color-tokyo {
+		background-color: #339966;
+	}
+	.conteiner__color-sydney {
+		background-color: #666699;
+	}
+	
+	.conteiner__town {
+		color: #fff;
+	}
+
+	.conteiner__town, .conteiner__weather {
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.wi {
+		margin-left: 5px;
+		font-size: 25px;
+	}
+	
+
+.footer__text {
+	margin-top: 15px; 
+	font: 0.8em Arial,sans-serif;
+}
+
+
